@@ -1,0 +1,646 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9564B78A224379AF0097EC55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564B789224379AF0097EC55 /* AppDelegate.m */; };
+		9564B78D224379AF0097EC55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564B78C224379AF0097EC55 /* ViewController.m */; };
+		9564B790224379AF0097EC55 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9564B78E224379AF0097EC55 /* Main.storyboard */; };
+		9564B792224379B00097EC55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9564B791224379B00097EC55 /* Assets.xcassets */; };
+		9564B795224379B00097EC55 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9564B793224379B00097EC55 /* LaunchScreen.storyboard */; };
+		9564B798224379B00097EC55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564B797224379B00097EC55 /* main.m */; };
+		9564B7A2224379B00097EC55 /* YLCusMapViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564B7A1224379B00097EC55 /* YLCusMapViewTests.m */; };
+		9564B7AD224379B00097EC55 /* YLCusMapViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564B7AC224379B00097EC55 /* YLCusMapViewUITests.m */; };
+		9564B7C2224379FB0097EC55 /* YLAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564B7BD224379FB0097EC55 /* YLAnnotation.m */; };
+		9564B7C3224379FB0097EC55 /* YLMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564B7BF224379FB0097EC55 /* YLMapView.m */; };
+		9564B7C4224379FB0097EC55 /* YLOverlays.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564B7C0224379FB0097EC55 /* YLOverlays.m */; };
+		9564B7CB22437AA90097EC55 /* YLCustomMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564B7C622437AA80097EC55 /* YLCustomMapView.m */; };
+		9564B7CC22437AA90097EC55 /* YLPinAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564B7C922437AA90097EC55 /* YLPinAnnotation.m */; };
+		9564B7CD22437AA90097EC55 /* YLPinAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9564B7CA22437AA90097EC55 /* YLPinAnnotationView.m */; };
+		9564B7D2224382070097EC55 /* icon_bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 9564B7D1224382070097EC55 /* icon_bg.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9564B79E224379B00097EC55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9564B77D224379AE0097EC55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9564B784224379AF0097EC55;
+			remoteInfo = YLCusMapView;
+		};
+		9564B7A9224379B00097EC55 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9564B77D224379AE0097EC55 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9564B784224379AF0097EC55;
+			remoteInfo = YLCusMapView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9564B785224379AF0097EC55 /* YLCusMapView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YLCusMapView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9564B788224379AF0097EC55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9564B789224379AF0097EC55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9564B78B224379AF0097EC55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9564B78C224379AF0097EC55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9564B78F224379AF0097EC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9564B791224379B00097EC55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9564B794224379B00097EC55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9564B796224379B00097EC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9564B797224379B00097EC55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9564B79D224379B00097EC55 /* YLCusMapViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLCusMapViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9564B7A1224379B00097EC55 /* YLCusMapViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCusMapViewTests.m; sourceTree = "<group>"; };
+		9564B7A3224379B00097EC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9564B7A8224379B00097EC55 /* YLCusMapViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YLCusMapViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9564B7AC224379B00097EC55 /* YLCusMapViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YLCusMapViewUITests.m; sourceTree = "<group>"; };
+		9564B7AE224379B00097EC55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9564B7BB224379FB0097EC55 /* YLAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLAnnotation.h; sourceTree = "<group>"; };
+		9564B7BC224379FB0097EC55 /* YLOverlays.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLOverlays.h; sourceTree = "<group>"; };
+		9564B7BD224379FB0097EC55 /* YLAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLAnnotation.m; sourceTree = "<group>"; };
+		9564B7BE224379FB0097EC55 /* YLMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMapView.h; sourceTree = "<group>"; };
+		9564B7BF224379FB0097EC55 /* YLMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLMapView.m; sourceTree = "<group>"; };
+		9564B7C0224379FB0097EC55 /* YLOverlays.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLOverlays.m; sourceTree = "<group>"; };
+		9564B7C1224379FB0097EC55 /* YLMapViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLMapViewDelegate.h; sourceTree = "<group>"; };
+		9564B7C522437AA80097EC55 /* YLPinAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPinAnnotationView.h; sourceTree = "<group>"; };
+		9564B7C622437AA80097EC55 /* YLCustomMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLCustomMapView.m; sourceTree = "<group>"; };
+		9564B7C722437AA80097EC55 /* YLCustomMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLCustomMapView.h; sourceTree = "<group>"; };
+		9564B7C822437AA90097EC55 /* YLPinAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YLPinAnnotation.h; sourceTree = "<group>"; };
+		9564B7C922437AA90097EC55 /* YLPinAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPinAnnotation.m; sourceTree = "<group>"; };
+		9564B7CA22437AA90097EC55 /* YLPinAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YLPinAnnotationView.m; sourceTree = "<group>"; };
+		9564B7CF22437B5D0097EC55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9564B7D1224382070097EC55 /* icon_bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_bg.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9564B782224379AF0097EC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9564B79A224379B00097EC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9564B7A5224379B00097EC55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9564B77C224379AE0097EC55 = {
+			isa = PBXGroup;
+			children = (
+				9564B787224379AF0097EC55 /* YLCusMapView */,
+				9564B7A0224379B00097EC55 /* YLCusMapViewTests */,
+				9564B7AB224379B00097EC55 /* YLCusMapViewUITests */,
+				9564B786224379AF0097EC55 /* Products */,
+				9564B7CE22437B5D0097EC55 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9564B786224379AF0097EC55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9564B785224379AF0097EC55 /* YLCusMapView.app */,
+				9564B79D224379B00097EC55 /* YLCusMapViewTests.xctest */,
+				9564B7A8224379B00097EC55 /* YLCusMapViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9564B787224379AF0097EC55 /* YLCusMapView */ = {
+			isa = PBXGroup;
+			children = (
+				9564B7BA224379D30097EC55 /* CusMapView */,
+				9564B788224379AF0097EC55 /* AppDelegate.h */,
+				9564B789224379AF0097EC55 /* AppDelegate.m */,
+				9564B78B224379AF0097EC55 /* ViewController.h */,
+				9564B78C224379AF0097EC55 /* ViewController.m */,
+				9564B7C722437AA80097EC55 /* YLCustomMapView.h */,
+				9564B7C622437AA80097EC55 /* YLCustomMapView.m */,
+				9564B7C822437AA90097EC55 /* YLPinAnnotation.h */,
+				9564B7C922437AA90097EC55 /* YLPinAnnotation.m */,
+				9564B7C522437AA80097EC55 /* YLPinAnnotationView.h */,
+				9564B7CA22437AA90097EC55 /* YLPinAnnotationView.m */,
+				9564B78E224379AF0097EC55 /* Main.storyboard */,
+				9564B791224379B00097EC55 /* Assets.xcassets */,
+				9564B793224379B00097EC55 /* LaunchScreen.storyboard */,
+				9564B796224379B00097EC55 /* Info.plist */,
+				9564B797224379B00097EC55 /* main.m */,
+			);
+			path = YLCusMapView;
+			sourceTree = "<group>";
+		};
+		9564B7A0224379B00097EC55 /* YLCusMapViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				9564B7A1224379B00097EC55 /* YLCusMapViewTests.m */,
+				9564B7A3224379B00097EC55 /* Info.plist */,
+			);
+			path = YLCusMapViewTests;
+			sourceTree = "<group>";
+		};
+		9564B7AB224379B00097EC55 /* YLCusMapViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9564B7AC224379B00097EC55 /* YLCusMapViewUITests.m */,
+				9564B7AE224379B00097EC55 /* Info.plist */,
+			);
+			path = YLCusMapViewUITests;
+			sourceTree = "<group>";
+		};
+		9564B7BA224379D30097EC55 /* CusMapView */ = {
+			isa = PBXGroup;
+			children = (
+				9564B7D1224382070097EC55 /* icon_bg.png */,
+				9564B7BB224379FB0097EC55 /* YLAnnotation.h */,
+				9564B7BD224379FB0097EC55 /* YLAnnotation.m */,
+				9564B7BE224379FB0097EC55 /* YLMapView.h */,
+				9564B7BF224379FB0097EC55 /* YLMapView.m */,
+				9564B7C1224379FB0097EC55 /* YLMapViewDelegate.h */,
+				9564B7BC224379FB0097EC55 /* YLOverlays.h */,
+				9564B7C0224379FB0097EC55 /* YLOverlays.m */,
+			);
+			path = CusMapView;
+			sourceTree = "<group>";
+		};
+		9564B7CE22437B5D0097EC55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9564B7CF22437B5D0097EC55 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9564B784224379AF0097EC55 /* YLCusMapView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9564B7B1224379B00097EC55 /* Build configuration list for PBXNativeTarget "YLCusMapView" */;
+			buildPhases = (
+				9564B781224379AF0097EC55 /* Sources */,
+				9564B782224379AF0097EC55 /* Frameworks */,
+				9564B783224379AF0097EC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YLCusMapView;
+			productName = YLCusMapView;
+			productReference = 9564B785224379AF0097EC55 /* YLCusMapView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9564B79C224379B00097EC55 /* YLCusMapViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9564B7B4224379B00097EC55 /* Build configuration list for PBXNativeTarget "YLCusMapViewTests" */;
+			buildPhases = (
+				9564B799224379B00097EC55 /* Sources */,
+				9564B79A224379B00097EC55 /* Frameworks */,
+				9564B79B224379B00097EC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9564B79F224379B00097EC55 /* PBXTargetDependency */,
+			);
+			name = YLCusMapViewTests;
+			productName = YLCusMapViewTests;
+			productReference = 9564B79D224379B00097EC55 /* YLCusMapViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9564B7A7224379B00097EC55 /* YLCusMapViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9564B7B7224379B00097EC55 /* Build configuration list for PBXNativeTarget "YLCusMapViewUITests" */;
+			buildPhases = (
+				9564B7A4224379B00097EC55 /* Sources */,
+				9564B7A5224379B00097EC55 /* Frameworks */,
+				9564B7A6224379B00097EC55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9564B7AA224379B00097EC55 /* PBXTargetDependency */,
+			);
+			name = YLCusMapViewUITests;
+			productName = YLCusMapViewUITests;
+			productReference = 9564B7A8224379B00097EC55 /* YLCusMapViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9564B77D224379AE0097EC55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = csda_Chinadance;
+				TargetAttributes = {
+					9564B784224379AF0097EC55 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					9564B79C224379B00097EC55 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9564B784224379AF0097EC55;
+					};
+					9564B7A7224379B00097EC55 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 9564B784224379AF0097EC55;
+					};
+				};
+			};
+			buildConfigurationList = 9564B780224379AE0097EC55 /* Build configuration list for PBXProject "YLCusMapView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9564B77C224379AE0097EC55;
+			productRefGroup = 9564B786224379AF0097EC55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9564B784224379AF0097EC55 /* YLCusMapView */,
+				9564B79C224379B00097EC55 /* YLCusMapViewTests */,
+				9564B7A7224379B00097EC55 /* YLCusMapViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9564B783224379AF0097EC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9564B7D2224382070097EC55 /* icon_bg.png in Resources */,
+				9564B795224379B00097EC55 /* LaunchScreen.storyboard in Resources */,
+				9564B792224379B00097EC55 /* Assets.xcassets in Resources */,
+				9564B790224379AF0097EC55 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9564B79B224379B00097EC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9564B7A6224379B00097EC55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9564B781224379AF0097EC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9564B7CB22437AA90097EC55 /* YLCustomMapView.m in Sources */,
+				9564B7CD22437AA90097EC55 /* YLPinAnnotationView.m in Sources */,
+				9564B78D224379AF0097EC55 /* ViewController.m in Sources */,
+				9564B7C4224379FB0097EC55 /* YLOverlays.m in Sources */,
+				9564B7CC22437AA90097EC55 /* YLPinAnnotation.m in Sources */,
+				9564B7C2224379FB0097EC55 /* YLAnnotation.m in Sources */,
+				9564B798224379B00097EC55 /* main.m in Sources */,
+				9564B78A224379AF0097EC55 /* AppDelegate.m in Sources */,
+				9564B7C3224379FB0097EC55 /* YLMapView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9564B799224379B00097EC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9564B7A2224379B00097EC55 /* YLCusMapViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9564B7A4224379B00097EC55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9564B7AD224379B00097EC55 /* YLCusMapViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9564B79F224379B00097EC55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9564B784224379AF0097EC55 /* YLCusMapView */;
+			targetProxy = 9564B79E224379B00097EC55 /* PBXContainerItemProxy */;
+		};
+		9564B7AA224379B00097EC55 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9564B784224379AF0097EC55 /* YLCusMapView */;
+			targetProxy = 9564B7A9224379B00097EC55 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9564B78E224379AF0097EC55 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9564B78F224379AF0097EC55 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9564B793224379B00097EC55 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9564B794224379B00097EC55 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9564B7AF224379B00097EC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9564B7B0224379B00097EC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9564B7B2224379B00097EC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLCusMapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLCusMapView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9564B7B3224379B00097EC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLCusMapView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLCusMapView";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9564B7B5224379B00097EC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLCusMapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLCusMapViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLCusMapView.app/YLCusMapView";
+			};
+			name = Debug;
+		};
+		9564B7B6224379B00097EC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLCusMapViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLCusMapViewTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YLCusMapView.app/YLCusMapView";
+			};
+			name = Release;
+		};
+		9564B7B8224379B00097EC55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLCusMapViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLCusMapViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLCusMapView;
+			};
+			name = Debug;
+		};
+		9564B7B9224379B00097EC55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SEWBU2EJ25;
+				INFOPLIST_FILE = YLCusMapViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "it-zhongwu.YLCusMapViewUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = YLCusMapView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9564B780224379AE0097EC55 /* Build configuration list for PBXProject "YLCusMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9564B7AF224379B00097EC55 /* Debug */,
+				9564B7B0224379B00097EC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9564B7B1224379B00097EC55 /* Build configuration list for PBXNativeTarget "YLCusMapView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9564B7B2224379B00097EC55 /* Debug */,
+				9564B7B3224379B00097EC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9564B7B4224379B00097EC55 /* Build configuration list for PBXNativeTarget "YLCusMapViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9564B7B5224379B00097EC55 /* Debug */,
+				9564B7B6224379B00097EC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9564B7B7224379B00097EC55 /* Build configuration list for PBXNativeTarget "YLCusMapViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9564B7B8224379B00097EC55 /* Debug */,
+				9564B7B9224379B00097EC55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9564B77D224379AE0097EC55 /* Project object */;
+}
